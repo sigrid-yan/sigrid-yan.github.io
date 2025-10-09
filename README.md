@@ -1,4 +1,10 @@
-# Sigrid's Blog
+# sigrid-yan.github.io
+
+## 消炎的blog
+
+记录学习C++的日常
+
+---
 
 A personal blog powered by [Hexo](https://hexo.io/) and hosted on GitHub Pages.
 
@@ -97,8 +103,8 @@ After pushing to GitHub, you need to:
 Check your network connection or try using a VPN/proxy. You may need to configure git proxy:
 
 ```bash
-git config --global http.proxy http://proxy-address:port
-git config --global https.proxy https://proxy-address:port
+git config --global http.proxy socks5h://127.0.0.1:7890
+git config --global https.proxy socks5h://127.0.0.1:7890
 ```
 
 ## Directory Structure
